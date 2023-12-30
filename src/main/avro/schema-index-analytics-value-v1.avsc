@@ -1,0 +1,48 @@
+{
+  "doc": "Index data schema to help you understand it's market value.",
+  "fields": [
+    {
+      "doc": "Index",
+      "name": "index",
+      "type": "string"
+    },
+    {
+      "doc": "Index Date",
+      "name": "date",
+      "type": "string"
+    },
+    {
+      "doc": "Index Open Value",
+      "name": "open",
+      "type": "string"
+    },
+    {
+      "doc": "Index high value",
+      "name": "high",
+      "type": "string"
+    },
+    {
+      "doc": "Index low value",
+      "name": "low",
+      "type": "string"
+    },
+    {
+      "doc": "Index closing value",
+      "name": "close",
+      "type": "string"
+    },
+    {
+      "doc": "Index adjClose value",
+      "name": "adjClose",
+      "type": "string"
+    },
+    {
+      "doc": "Index volume",
+      "name": "volume",
+      "type": "string"
+    }
+  ],
+  "name": "IndexData",
+  "namespace": "com.saas.generic.business.feeds.schemas",
+  "type": "record"
+}

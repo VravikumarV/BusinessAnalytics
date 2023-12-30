@@ -1,0 +1,25 @@
+server:
+  port: 9772
+  servlet:
+    context-path: /feedproducer
+spring:
+  application:
+    name: feedproducer
+  batch:
+    job.enabled: true
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+      #acks:
+      #client-id:
+      #retries:
+      #batch-size:
+      #key-serializer:
+      #value-serializer:
+
+
+feedproducer:
+  feedDataTopic: feed-data
+  feedName: IndexData.csv
+  feedLocation: /Users/venkataravikumarvemulakonda/Documents/techgaint_workspace/BusinessAnalytics/business.feedproducer/src/main/resources/feed/IndexData.csv
+

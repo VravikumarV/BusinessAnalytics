@@ -1,0 +1,18 @@
+server:
+  port: 9071
+spring:
+  application:
+    name: feedconsumer
+  batch:
+    job.enabled: true
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: group_id
+      auto-offset-reset: earliest
+      properties:
+        schema.registry.url: http://localhost:8082
+
+
+feedconsumer:
+  feedStatsTopic: feed-stats

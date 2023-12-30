@@ -1,0 +1,13 @@
+{
+  "doc": "Index data Key schema to help you understand it's market value.",
+  "fields": [
+    {
+      "doc": "Index",
+      "name": "index",
+      "type": "string"
+    }
+  ],
+  "name": "IndexKey",
+  "namespace": "com.saas.generic.business.feeds.schemas",
+  "type": "record"
+}

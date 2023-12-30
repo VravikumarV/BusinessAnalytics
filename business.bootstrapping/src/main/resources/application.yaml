@@ -1,0 +1,16 @@
+server:
+  port: 9771
+  servlet:
+    context-path: /bootstrapping
+spring:
+  application:
+    name: bootstrapping
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1MB
+      max-request-size: 10MB
+
+feedName: IndexData.csv
+feedLocationToSave: /Users/venkataravikumarvemulakonda/Documents/techgaint_workspace/BusinessAnalytics/business.feedproducer/src/main/resources/feed/
+#feedLocationToSave: ..\business.feedproducer\src\main\resources\feed\
